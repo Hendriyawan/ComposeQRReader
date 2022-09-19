@@ -1,0 +1,27 @@
+ext {
+    compose_version = '1.0.1'
+    jetpackComposeDependencies = [
+            navigation : "androidx.navigation:navigation-compose:2.4.0-alpha10", //compose navigation
+            iconCore : "androidx.compose.material:material-icons-core:$compose_version", //Material Design Compose Icon
+            iconExtended : "androidx.compose.material:material-icons-extended:$compose_version", //Material Design Compose Icon
+            viewModel : "androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha07", //Integration view model
+            liveData : "androidx.compose.runtime:runtime-livedata:$compose_version", //Integration with observables
+            rxJava2 : "androidx.compose.runtime:runtime-rxjava2:$compose_version", //Integration with observables
+            pager: "com.google.accompanist:accompanist-pager:0.12.0"
+    ]
+    secure = [
+            permission: "com.nabinbhandari.android:permissions:3.8"
+    ]
+    qrcode = [
+            scanner: "com.budiyev.android:code-scanner:2.1.0",
+            core: "com.google.zxing:core:3.3.3",
+            embedded: "com.journeyapps:zxing-android-embedded:3.4.0"
+    ]
+    utils = [
+            colorSlider : "com.github.naz013:ColorSlider:2.0.7",
+            contactPicker: "io.github.farhad:contactpicker:2.0.0"
+    ]
+    expansion = [
+            expansionPanel: "com.github.florent37:expansionpanel:1.2.4"
+    ]
+}

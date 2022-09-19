@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Pemindai QR Code Barcode</string>
+    <string name="scanner">Scanner</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="sound">Sound</string>
+    <string name="auto_copy_to_clipboard">Auto copy to clipboard</string>
+    <string name="open_web_automatically">Open web automatically</string>
+    <string name="link">Link</string>
+    <string name="text">Text</string>
+    <string name="wifi">Wifi</string>
+    <string name="event">Event</string>
+    <string name="contact">Contact</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="sms">SMS</string>
+    <string name="scan_image">Scan Image</string>
+    <string name="user_interface">User Interface</string>
+    <string name="dark_mode">Dark Mode</string>
+</resources>
